@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Cube-silicone', 'ball', 'blue_cube', 'circle', 'green_cube', 'rectangle', 'red_cube', 'triangle', 'yellow_cube']
+
+roboflow:
+  workspace: w0
+  project: 3d-geom-shape-detector
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/w0/3d-geom-shape-detector/dataset/2
